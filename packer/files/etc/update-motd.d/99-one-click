@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# Configured as part of the DigitalOcean 1-Click Image build process
+
+myip=$(hostname -I | awk '{print$1}')
+export TERM=xterm-256color
+cat <<EOF
+********************************************************************************
+
+Welcome to Analythium's 1-Click OpenCPU + RStudio Server Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+Only these ports are open: 22 (SSH), 80 (HTTP), 443 (HTTPS), 8787 (RStudio).
+
+   * help and more information:  https://hub.analythium.io/
+   * OpenCPU documentation:  https://www.opencpu.org
+   * RStudio Server:  https://rstudio.com/products/rstudio
+
+********************************************************************************
+To delete this message of the day: rm -rf $(readlink -f ${0})
+EOF
