@@ -43,24 +43,15 @@ develop and deploy applications to the server.
 
 We recommend using a 2 vCPUs 4 GB memory droplet for best performance.
 
-Use your SSH key you set up with your droplet to log in
-(ssh -i ~/.ssh/id_rsa root@your_host).
+Use your SSH key you set up with your droplet to log in.
 Add new user as `adduser user_name`, optionally make them
 superuser as `usermod -aG sudo user_name`.
 
-Now you can go to `http://your_host/rstudio` and log in
+Go to `http://your_host/rstudio` and log in
 using the newly created username and password.
-
-Istall a demo app:
-
-```
-remotes::install_github("rwebapps/appdemo")
-```
-
-Now visit `http://your_host/ocpu/user/user_name/library/appdemo/` to the the
-demo app.
-
-Go to `http://your_host/ocpu/` to test various
+Install a demo app via `remotes::install_github("rwebapps/appdemo")`.
+Now visit `http://your_host/ocpu/user/user_name/library/appdemo/` to see the demo app.
+Go to `http://your_host/ocpu/` to explore and test various
 [endpoints](https://www.opencpu.org/api.html#api-endpoints).
 
 ## Support
@@ -69,7 +60,7 @@ Go to `http://your_host/ocpu/` to test various
 
 ## Additional links
 
-Analythium Hub: [https://hub.analythium.io/docs/](https://hub.analythium.io/docs/) Detailed 1-Click App Documentation
+Analythium Hub: [https://hub.analythium.io/docs/](https://hub.analythium.io/docs/)
 
 OpenCPU website: [https://www.opencpu.org/](https://www.opencpu.org/)
 
