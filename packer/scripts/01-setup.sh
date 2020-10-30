@@ -8,14 +8,18 @@
 #
 #echo "HELLO WORLD"
 
-echo "Setting firewall rules"
+
+# Install DigitalOcean metrics agent
+curl -sSL https://repos.insights.digitalocean.com/install.sh | sudo bash
+
+
+# Setting firewall rules
 
 ufw default deny incoming
 ufw default allow outgoing
 
 ufw allow ssh
 ufw allow http
-ufw allow https
-ufw allow 8787
+#ufw allow https
 
 ufw --force enable
