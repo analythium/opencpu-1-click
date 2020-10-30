@@ -22,7 +22,7 @@ Minimum resource: 1 CPU, 1G RAM, 25G SSD
 ## Application summary
 
 OpenCPU is a software system for embedded statistical computation and reproducible research.
-The server exposes a web API interfacing R, LaTeX and Pandoc.
+The server exposes a web API interfacing [R](https://www.r-project.org/).
 Apps hosted on OpenCPU server are R packages that include web pages or
 call the R functions in the package using the OpenCPU API.
 
