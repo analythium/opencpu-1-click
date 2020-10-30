@@ -1,6 +1,7 @@
 # Build Automation with Packer
 
-> Copied from [digitalocean/marketplace-partners](https://github.com/digitalocean/marketplace-partners)
+> Copied from [digitalocean/marketplace-partners](https://github.com/digitalocean/marketplace-partners).
+> When using, make sure that the cleanup and image check scripts are up to date (see [here](https://github.com/digitalocean/marketplace-partners/tree/master/scripts)).
 
 [Packer](https://www.packer.io/intro) is a tool for creating images from a single source configuration. Using this Packer template reduces the entire process of creating, configuring, validating, and snapshotting a build Droplet to a single command:
 
