@@ -9,7 +9,10 @@ cat <<EOF
 
 Welcome to Analythium's 1-Click OpenCPU + RStudio Server Droplet.
 To keep this Droplet secure, the UFW firewall is enabled.
-Only these ports are open: 22 (SSH), 80 (HTTP), 443 (HTTPS), 8787 (RStudio).
+Only these ports are open: 22 (SSH), 80 (HTTP).
+
+To add new user, use: adduser <username>
+To make a superuser also add: usermod -aG sudo <username>
 
    * help and more information:  https://hub.analythium.io/
    * OpenCPU documentation:  https://www.opencpu.org
