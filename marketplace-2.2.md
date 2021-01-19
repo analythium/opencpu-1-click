@@ -12,8 +12,9 @@ Minimum resource: 1 CPU, 1G RAM, 25G SSD
 
 ## Software Included
 
-- OpenCPU 2.2 ([Apache 2](https://www.apache.org/licenses/LICENSE-2.0))
-- RStudio Server Open Source Edition ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
+- [OpenCPU 2.2](https://www.opencpu.org/) ([Apache 2](https://www.apache.org/licenses/LICENSE-2.0))
+- [RStudio Server Open Source Edition 1.3.1093](https://rstudio.com/products/rstudio/) ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
+- [R](https://www.r-project.org/) ()
 
 ## Change log
 
@@ -21,38 +22,23 @@ Minimum resource: 1 CPU, 1G RAM, 25G SSD
 
 ## Application summary
 
-OpenCPU is a software system for embedded statistical computation and reproducible research.
-The server exposes a web API interfacing [R](https://www.r-project.org/).
-Apps hosted on OpenCPU server are R packages that include web pages or
-call the R functions in the package using the OpenCPU API.
+OpenCPU is a software system for embedded statistical computation and reproducible research. The server exposes a web API interfacing [R](https://www.r-project.org/). Apps hosted on OpenCPU server are R packages that include web pages or call the R functions in the package using the OpenCPU API.
 
-RStudio is an integrated development environment (IDE) for R.
-RStudio Server lets you install R packages and OpenCPU web applications and
-interfaces in an interactive fashion and run the server as a multi-tenant environment.
+RStudio is an integrated development environment (IDE) for R. RStudio Server lets you install R packages and OpenCPU web applications and interfaces in an interactive fashion and run the server as a multi-tenant environment.
 
-The 1-Click option makes it easier than ever to deploy OpenCPU and RStudio Server Open Source
-on DigitalOcean droplets in fully-tested app environments.
+The 1-Click option makes it easier than ever to deploy OpenCPU and RStudio Server Open Source on DigitalOcean droplets in fully-tested app environments.
 
 ## Application Description
 
-Deploy R based APIs and web applications at scale with ease using the 1-Click OpenCPU app.
-Use RStudio Server Open Source as a multi-tenant environment and to interactively
-develop and deploy applications to the server.
+Deploy R based APIs and web applications at scale with ease using the 1-Click OpenCPU app. Use RStudio Server Open Source as a multi-tenant environment and to interactively develop and deploy applications to the server.
 
 ## Getting started instructions
 
 We recommend using a 2 vCPUs 4 GB memory droplet for best performance.
 
-Use your SSH key you set up with your droplet to log in.
-Add new user as `adduser user_name`, optionally make them
-superuser as `usermod -aG sudo user_name`.
+Use your SSH key you set up with your droplet to log in: `ssh -i ~/.ssh/id_rsa root@your_droplet_public_ipv4`. Add new user as `adduser user_name`, optionally make them superuser as `usermod -aG sudo user_name`.
 
-Go to `http://your_host/rstudio` and log in
-using the newly created username and password.
-Install a demo app via `remotes::install_github("rwebapps/appdemo")`.
-Now visit `http://your_host/ocpu/user/user_name/library/appdemo/` to see the demo app.
-Go to `http://your_host/ocpu/` to explore and test various
-[endpoints](https://www.opencpu.org/api.html#api-endpoints).
+Go to `http://your_host/rstudio` and log in using the newly created username and password. Install a demo app via `remotes::install_github("rwebapps/appdemo")`. Now visit `http://your_host/ocpu/user/user_name/library/appdemo/` to see the demo app. Go to `http://your_host/ocpu/` to explore and test various [endpoints](https://www.opencpu.org/api.html#api-endpoints).
 
 ## Support
 
