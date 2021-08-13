@@ -11,4 +11,5 @@ and [RStudio Server Open Source Edition](https://rstudio.com/products/rstudio/).
 
 ## Versions
 
+- [OpenCPU 2.2.4 1-click app](marketplace-2.2.4.md)
 - [OpenCPU 2.2 1-click app](marketplace-2.2.md)

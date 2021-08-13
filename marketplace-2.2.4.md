@@ -1,6 +1,6 @@
 # DigitalOcean Marketplace submission
 
-> OpenCPU 2.2 - published on 2020-11-02
+> OpenCPU 2.2.4 - not yet published
 
 [![DO button](https://raw.githubusercontent.com/analythium/shinyproxy-1-click/master/digitalocean/images/do-btn-blue.svg)](https://marketplace.digitalocean.com/apps/opencpu)
 
@@ -12,13 +12,13 @@ Minimum resource: 1 CPU, 1G RAM, 25G SSD
 
 ## Software Included
 
-- [OpenCPU 2.2](https://www.opencpu.org/) ([Apache 2](https://www.apache.org/licenses/LICENSE-2.0))
-- [RStudio Server Open Source Edition 1.3.1093](https://rstudio.com/products/rstudio/) ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
-- [R 4.0.3](https://www.r-project.org/) ([GPL 2](https://www.r-project.org/Licenses/))
+- [OpenCPU 2.2.4](https://www.opencpu.org/) ([Apache 2](https://www.apache.org/licenses/LICENSE-2.0))
+- [RStudio Server Open Source Edition 1.4.1717](https://rstudio.com/products/rstudio/) ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
+- [R 4.1.0](https://www.r-project.org/) ([GPL 2](https://www.r-project.org/Licenses/))
 
 ## Change log
 
-- First submission.
+- Updated versions.
 
 ## Application summary
 

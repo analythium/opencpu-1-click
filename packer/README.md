@@ -5,7 +5,10 @@
 
 [Packer](https://www.packer.io/intro) is a tool for creating images from a single source configuration. Using this Packer template reduces the entire process of creating, configuring, validating, and snapshotting a build Droplet to a single command:
 
-```
+```bash
+## read token from file ~/.do/doctl-token
+export DIGITALOCEAN_TOKEN=$(cat ~/.do/doctl-token)
+cd packer
 packer build marketplace-image.json
 ```
 

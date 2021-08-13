@@ -1,8 +1,8 @@
 {
   "variables": {
     "token": "{{env `DIGITALOCEAN_TOKEN`}}",
-    "image_name": "opencpu-2-2-{{timestamp}}",
-    "apt_packages": "ufw opencpu-server rstudio-server"
+    "image_name": "opencpu-2-2-4-{{timestamp}}",
+    "apt_packages": "ufw r-base gdebi-core"
   },
   "builders": [
     {
@@ -47,7 +47,7 @@
       "scripts": [
         "scripts/01-setup.sh",
         "scripts/90-cleanup.sh",
-        "scripts/99-img_check.sh"
+        "scripts/99-img-check.sh"
       ]
     }
   ]

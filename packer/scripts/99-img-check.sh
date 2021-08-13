@@ -1,9 +1,9 @@
 #!/bin/bash
-#
+
 # DigitalOcean Marketplace Image Validation Tool
-# © 2018 DigitalOcean LLC.
-# This code is licensed under MIT license (see LICENSE.txt for details)
-#
+# © 2021 DigitalOcean LLC.
+# This code is licensed under Apache 2.0 license (see LICENSE.md for details)
+
 VERSION="v. 1.6"
 RUNDATE=$( date )
 
@@ -379,7 +379,7 @@ function checkFirewall {
       # we will check some of the most common
       if cmdExists 'ufw'; then
         fw="ufw"
-        ufwa=$(ufw status | sed -e "s/^Status:\ //")
+        ufwa=$(ufw status |head -1| sed -e "s/^Status:\ //")
         if [[ $ufwa == "active" ]]; then
         FW_VER="\e[32m[PASS]\e[0m Firewall service (${fw}) is active\n"
         ((PASS++))
@@ -675,7 +675,7 @@ if [[ $STATUS == 0 ]]; then
     exit 0
 elif [[ $STATUS == 1 ]]; then
     echo -en "Please review all [WARN] items above and ensure they are intended or resolved.  If you do not have a specific requirement, we recommend resolving these items before image submission\n\n"
-    exit 1
+    exit 0
 else
     echo -en "Some critical tests failed.  These items must be resolved and this scan re-run before you submit your image to the DigitalOcean Marketplace.\n\n"
     exit 1
