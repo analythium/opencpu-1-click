@@ -2,7 +2,7 @@
 
 > OpenCPU 1-click Application
 
-[![DO button](https://raw.githubusercontent.com/analythium/shinyproxy-1-click/master/digitalocean/images/do-btn-blue.svg)](https://marketplace.digitalocean.com/apps/opencpu)
+[![DO button](https://raw.githubusercontent.com/analythium/shinyproxy-1-click/master/digitalocean/images/do-btn-blue.svg)](https://marketplace.digitalocean.com/apps/opencpu?refcode=a8041699739d)
 
 This respository contains the Packer build for the DigitalOcean 1-click app image.
 It provides [R](https://www.r-project.org/),
