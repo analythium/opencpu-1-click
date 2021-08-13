@@ -2,7 +2,7 @@
   "variables": {
     "token": "{{env `DIGITALOCEAN_TOKEN`}}",
     "image_name": "opencpu-2-2-4-{{timestamp}}",
-    "apt_packages": "ufw r-base gdebi-core"
+    "apt_packages": "ufw opencpu-server rstudio-server"
   },
   "builders": [
     {

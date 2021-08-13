@@ -9,10 +9,10 @@
 #echo "HELLO WORLD"
 
 # RStudio Server
-export VERSION="1.4.1717"
-wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-${VERSION}-amd64.deb
-gdebi rstudio-server-${VERSION}-amd64.deb
-rm rstudio-server-${VERSION}-amd64.deb
+#export VERSION="1.4.1717"
+#wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-${VERSION}-amd64.deb
+#gdebi rstudio-server-${VERSION}-amd64.deb
+#rm rstudio-server-${VERSION}-amd64.deb
 
 
 # Setting firewall rules

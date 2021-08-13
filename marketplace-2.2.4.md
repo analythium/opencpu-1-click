@@ -13,7 +13,7 @@ Minimum resource: 1 CPU, 1G RAM, 25G SSD
 ## Software Included
 
 - [OpenCPU 2.2.4](https://www.opencpu.org/) ([Apache 2](https://www.apache.org/licenses/LICENSE-2.0))
-- [RStudio Server Open Source Edition 1.4.1717](https://rstudio.com/products/rstudio/) ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
+- [RStudio Server Open Source Edition 1.3.959](https://rstudio.com/products/rstudio/) ([AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html))
 - [R 4.1.0](https://www.r-project.org/) ([GPL 2](https://www.r-project.org/Licenses/))
 
 ## Change log
